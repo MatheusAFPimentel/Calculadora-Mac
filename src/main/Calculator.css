@@ -1,0 +1,10 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden; /*Determinando que não pode passar do tamanho especicado*/
+    
+    display: grid;
+    grid-template-columns: repeat(4, 25%); /*Criando 4 colunas que usam 25% do tamanho da calculadora*/
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px; /*1fr usa o resto de fragmentos deixado, os 48pxs são o tamanho das linhas da calculadora*/ 
+}
